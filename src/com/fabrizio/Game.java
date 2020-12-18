@@ -28,7 +28,7 @@ public class Game {
 
         System.out.print("Cards Dealt ... ask for a card !");
         int player1 = scanner.nextInt();
-        // menu -- for commands
+        //todo: menu -- for commands
         // ask for number
         // player and opponent have their own array list to store hand
         // discard deck pile
