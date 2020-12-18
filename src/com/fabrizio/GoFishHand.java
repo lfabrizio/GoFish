@@ -46,4 +46,10 @@ public class GoFishHand {
         }
         return false;
         }
+
+        public void displayHand(){
+        for(var card : cards){
+            System.out.println(card.toString() + " ");
+        }
+        }
 }
