@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Opponent implements Actor {
     Scanner scanner = new Scanner(System.in);
     private String name;
+    private int matches;
     private List<Card> card = new ArrayList<Card>();
 
 
@@ -24,7 +25,7 @@ public class Opponent implements Actor {
 //
 //    }
 
-//    public int getMatches(){
-//
-//    }
+    public int getMatches(){
+        return matches;
+    }
 }
