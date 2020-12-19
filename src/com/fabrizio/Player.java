@@ -10,8 +10,8 @@ public class Player{
     private List<Card> cards = new ArrayList<Card>();
     Scanner scanner = new Scanner(System.in);
 
-    public Player(){
-    // todo: pass in player name here
+    public Player(String name){
+    this.name= name;
     }
 
     public String getName() {

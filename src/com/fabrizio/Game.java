@@ -22,8 +22,9 @@ public class Game {
 
     public static void playGame() {
         // Game Loop begins
-        Scanner scanner = new Scanner(System.in);
         Game.welcome("Welcome to GoFish!!!");
+        System.out.print("Enter Name");
+        String name = input.nextLine();
         Game.firstRound();
 
         System.out.print("Cards Dealt ... ask for a card !");
