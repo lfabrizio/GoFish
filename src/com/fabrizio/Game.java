@@ -33,7 +33,9 @@ public class Game {
 
         Game.firstRound();
 
-        System.out.print("Cards Dealt ... ask for a card !");
+        System.out.print("Cards Dealt!");
+        System.out.print("\nPlayer, Ask for a Card..");
+        int RequestCard = input.nextInt();
 
         //todo: menu -- for commands
         // ask for number
