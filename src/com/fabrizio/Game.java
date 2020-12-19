@@ -3,11 +3,12 @@ package com.fabrizio;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Game {
     public static Scanner input = new Scanner(System.in);
     public List<Player> fullTable = new ArrayList<Player>();
-    Player playerOne = new Player("Lou");
+
     Player opponent = new Player("bot");
     private int playerMatches;
     private int opponentMatches;
@@ -25,9 +26,11 @@ public class Game {
 
     public static void playGame() {
         // Game Loop begins
-        Game.welcome("Welcome to GoFish!!!");
-        System.out.print("Enter Name");
+        Game.welcome("GoFish!!!");
+        System.out.print("Enter Name to continue....");
         String name = input.nextLine();
+        Player playerOne = new Player(name);
+
         Game.firstRound();
 
         System.out.print("Cards Dealt ... ask for a card !");
