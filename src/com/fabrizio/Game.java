@@ -1,15 +1,18 @@
 package com.fabrizio;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Game {
-
-    private Standard playerHand;
-    private Standard opponentHand;
+    public static Scanner input = new Scanner(System.in);
+    public List<Player> fullTable = new ArrayList<Player>();
+    Player playerOne = new Player("Lou");
+    Player opponent = new Player("bot");
     private int playerMatches;
     private int opponentMatches;
     private boolean win;
-    public static Scanner input = new Scanner(System.in);
+
 
     public Game() {
 
@@ -28,7 +31,7 @@ public class Game {
         Game.firstRound();
 
         System.out.print("Cards Dealt ... ask for a card !");
-        int player1 = input.nextInt();
+
         //todo: menu -- for commands
         // ask for number
         // player and opponent have their own array list to store hand
