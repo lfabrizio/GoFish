@@ -6,7 +6,7 @@ import java.util.List;
 public class GoFishHand {
     List<Card> cards = new ArrayList<>();
     private Player player;
-    private int score;
+    private int matches = 0;
 
     public GoFishHand(Player player){
         this.player = player;
@@ -51,5 +51,9 @@ public class GoFishHand {
         for(var card : cards){
             System.out.println(card.toString() + " ");
         }
+        }
+
+        public int getMatches(){
+        return matches;
         }
 }

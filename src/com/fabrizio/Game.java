@@ -38,7 +38,6 @@ public class Game {
         int RequestCard = input.nextInt();
 
         //todo: menu -- for commands
-        // ask for number
         // player and opponent have their own array list to store hand
         // discard deck pile
     }
