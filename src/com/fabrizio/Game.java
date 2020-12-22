@@ -39,7 +39,7 @@ public class Game {
 
         //todo: menu -- for commands
         // player and opponent have their own array list to store hand
-        // discard deck pile
+
     }
 
 
@@ -56,14 +56,6 @@ public class Game {
         }
        }
 
-//    public void playerTurn(){
-//        do {
-//            if(!win){
-//                System.out.println("Ask for a card");
-//                int requestedCard = input.nextInt();
-//            }
-//        }
-//    }
 
     public void opponentTurn(){
     }

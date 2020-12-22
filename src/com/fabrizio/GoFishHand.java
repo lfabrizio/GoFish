@@ -13,7 +13,6 @@ public class GoFishHand {
     }
 
 
-
     public int getHandCount() {
         return cards.size();
     }
